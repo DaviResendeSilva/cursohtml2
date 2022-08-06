@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+body{
+   background-image: linear-gradient(to bottom, #69f0e0, white);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: #3F49F2
+}
+h2{
+    color: #427DFC
+}
+h1#principal{
+    text-align: center;
+    background-color:#42E0FC;
+    text-shadow: 0.5px 0.5px 0.5px #ffffff;
+    color: #072a75 ;
+    border-radius: 9px;
+    padding: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(243, 243, 243, 0.267);
+}
+h1.aprendendo{
+    background-color: rgb(156, 227, 236);
+    text-shadow: 0.5px 0.5px 0.5px #ffffff;
+    border-radius: 9px;
+    padding: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(19, 1, 85, 0.534);
+}
+.basico{
+    background-color: rgb(88, 88, 238);
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+.intermediario{
+    background-color: rgb(48, 48, 248);
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+.avançado{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;;
+}
+.destaque:hover{
+    background-color: yellow;
+    padding: 1px;
+    border-radius: 10px ;
+    text-decoration: underline rgb(0, 0, 0);
+   color: blue
+}
