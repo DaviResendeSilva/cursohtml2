@@ -8,18 +8,31 @@
     </title>
     <style>
         body {
+            
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;/*ocupa 100% a imagem da view do site*/
-            background-attachment: fixed;
+          background-attachment: fixed;
+          /*
+         shorthand - background :
+        1º - color
+        2º - image
+        3º - position
+        4º - repeat
+        5º - [[[size]]]
+        6º attachment
+        
+      background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;  
+background-size: cover;
+*/
         }
         main {
             border: 1px solid darkblue;
             border-radius: 15px;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             background-color: white;
             margin: auto;
