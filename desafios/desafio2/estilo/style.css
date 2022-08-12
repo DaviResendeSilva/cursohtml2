@@ -42,26 +42,46 @@ header a:hover, footer a:hover{
    text-decoration: underline;
 }
 section{
+
     font-size: 3.5vw;/* tamanho da fonte de 4.5% da largura da tela*/
     padding-left: 30px;
     font-family: var(--font3);
     padding-top: 10vh;/* criar um paddin top e bottom com 10% da altura da tela(vh)*/
     padding-bottom: 10vh;
+   
 }
 section.normal{
     background-color: white;
     color: black;
 }
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.281);
+  display: block;
+    background-color: rgba(0, 0, 0, 0.356);
+    background-size: 100% 100%;
 display: inline-block;
 padding: 10px;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
+ 
 }
-section.imagem{
+section.imagem#primeira {
+    color: rgb(252, 252, 101);
+    background-image: url(/desafios/desafio2/imagens/background001.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-position: right center;
 
-    background-color: rgb(14, 14, 14);
+}
+section.imagem#segunda {
+   background-image: url(/desafios/desafio2/imagens/background002.jpg);
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+}
+
+section.imagem{
+    box-shadow: inset 3px 6px 13px 0px rgba(0, 0, 0, 0.671);
     color: white;
-    background-image: url();
+ 
 }
 
 
