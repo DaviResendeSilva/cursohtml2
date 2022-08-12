@@ -65,14 +65,14 @@ box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.404);
 }
 section.imagem#primeira {
     color: rgb(252, 252, 101);
-    background-image: url(/imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
 background-size: cover;
 background-attachment: fixed;
 background-position: right center;
 
 }
 section.imagem#segunda {
-   background-image: url(/imagens/background002.jpg);
+   background-image: url(../imagens/background002.jpg);
   background-size: cover;
   background-position: right center;
   background-attachment: fixed;
