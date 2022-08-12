@@ -1,0 +1,73 @@
+@charset "UTF8";
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 2em;
+padding-left: 30px;
+}
+html, body{
+    min-height: 100vh;
+background-color: darkgrey;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+   /*text-transform: uppercase;letras maiúsculas*/
+   font-variant: small-caps;
+}
+header > p {
+    padding-bottom: 50px;
+}
+header a, footer, a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+   text-decoration: underline;
+}
+section{
+    padding-top: 10vh;/* criar um paddin top e bottom com 10% da altura da tela(vh)*/
+    padding-bottom: 10vh;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.281);
+   width: 400px;
+}
+section.imagem{
+
+    background-color: rgb(14, 14, 14);
+    color: white;
+    background-image: url();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.normal {
+
+}
+.imagem {
+
+}
