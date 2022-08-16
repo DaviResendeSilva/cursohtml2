@@ -12,10 +12,16 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+        thead > tr > th {/*grudar o cabeçalho quando rolar a tela*/
+        position: sticky;/* "grudar"*/
+        top: -1px;/* -1 px no top para grudar na parte de cima sem espaço*/
+        background-color: black;
         }
         thead{
             background-color: rgb(0, 0, 0);
@@ -35,11 +41,12 @@
             background-color: lightgrey;
         }
         tbody > tr:nth-child(odd)/* 2n-1*/{/*Efeito zebrado na tabela*/
-        background-color: rgb(83, 83, 83);
+        background-color: rgb(119, 117, 117);
         }
         tbody > tr:nth-child(even)/* 2n*/{/*Efeito zebrado na tabela*/
         background-color: white(83, 83, 83);
         }
+        
     </style>
 </head>
 <body>
@@ -72,6 +79,43 @@
      <td class="num"> 17.264.943</td></tr> 
      <tr><td> Espírito Santo </td> 
      <td class="num">3.885.000</td></tr>
+     <tr><td> Espírito Santo </td> 
+     <td class="num">3.885.000</td></tr>
+     <tr><td> Espírito Santo </td> 
+        <td class="num">3.885.000</td></tr>
+        <tr><td> Espírito Santo </td> 
+            <td class="num">3.885.000</td></tr>
+            <tr><td> Espírito Santo </td> 
+                <td class="num">3.885.000</td></tr>
+                <tr><td> Espírito Santo </td> 
+                    <td class="num">3.885.000</td></tr>
+                    <tr><td> Espírito Santo </td> 
+                        <td class="num">3.885.000</td></tr>
+                        <tr><td> Espírito Santo </td> 
+                            <td class="num">3.885.000</td></tr>
+                            <tr><td> Espírito Santo </td> 
+                                <td class="num">3.885.000</td></tr>
+                                <tr><td> Espírito Santo </td> 
+                                    <td class="num">3.885.000</td></tr>
+                                    <tr><td> Espírito Santo </td> 
+                                        <td class="num">3.885.000</td></tr>
+                                        <tr><td> Espírito Santo </td> 
+                                            <td class="num">3.885.000</td></tr>
+                                            <tr><td> Espírito Santo </td> 
+                                                <td class="num">3.885.000</td></tr>
+                                                <tr><td> Espírito Santo </td> 
+                                                    <td class="num">3.885.000</td></tr>
+                                                    <tr><td> Espírito Santo </td> 
+                                                        <td class="num">3.885.000</td></tr>
+                                                        <tr><td> Espírito Santo </td> 
+                                                            <td class="num">3.885.000</td></tr>
+                                                            <tr><td> Espírito Santo </td> 
+                                                                <td class="num">3.885.000</td></tr>
+                                                                <tr><td> Espírito Santo </td> 
+                                                                    <td class="num">3.885.000</td></tr>
+                                                                    <tr><td> Espírito Santo </td> 
+                                                                        <td class="num">3.885.000</td></tr>
+
 </tr>
 </tbody>
 <tfoot>
