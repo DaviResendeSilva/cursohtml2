@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body><!--method get é o padrão-->
+    <h1>Meu primeiro Formulário</h1><!--method post não mostra o preenchimento na url mas mesmo assim não é totalmente seguro, pois da pra ver os dados no inspecionar.-->
+   <form action="cadastro.php" method="post" autocomplete="off"><!--tirar o preenchimento automático(autocomplete off)-->
+<p><label for="inome">Nome:</label><!--label para clicar em cima da Palavra e selecionar a caixa referente à palavra e também para criar uma relacionar à palavra ao objeto-->
+    <input type="text" name="nome" id="inome">
+</p>
+<p><label for="isobrenome">Sobrenome:</label>
+    <input type="text" name="sobrenome" id="isobrenome">
+   <input type="submit" value="enviar">
+</p>
+   </form>
+</body>
+</html>
