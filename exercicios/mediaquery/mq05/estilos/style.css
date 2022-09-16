@@ -20,7 +20,7 @@ i#burger{
     text-align: center;
     padding: 10px;
     color: white;
-    cursor: pointer;
+    cursor: pointer; /* seta do mouse (mãozinha) */
     border-radius: 0px 10px 10px 0px; 
     margin-bottom: 5px;
 }
