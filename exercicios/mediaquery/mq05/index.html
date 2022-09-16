@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hamburger</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+<h1> Meu Site</h1>
+<i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+<menu id="itens">
+    <ul>
+      <li> <a href="#"> Opção 1</a></li>
+      <li> <a href="#"> Opção 2</a></li>
+      <li> <a href="#"> Opção 3</a></li>
+      <li> <a href="#"> Opção 4</a></li>
+      <li> <a href="#"> Opção 5</a></li>
+      <li> <a href="#"> Opção 6</a></li>
+        
+    </ul>
+</menu>
+    </header>
+    <main>
+        <article>
+ <h2>Testando Media Queries</h2>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, saepe officiis voluptas quia eveniet molestias possimus placeat enim totam nisi suscipit, fugiat nostrum? Assumenda vero esse, tempore impedit accusamus ullam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, blanditiis! Impedit dolorum aliquam voluptatum natus deleniti consectetur nemo, sint voluptate similique. Commodi similique corporis praesentium quos voluptates dolor earum doloribus?</p>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt unde recusandae dolor doloribus quibusdam cum rerum, ut dolorem impedit, tenetur, facere quaerat ipsa architecto! Similique adipisci quia nulla porro atque.</p>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga modi quasi eius? Nam rerum ipsa eius, repellendus sit pariatur quia perspiciatis temporibus iste, asperiores hic laboriosam est minus. Temporibus, rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quidem non, incidunt placeat illum nemo, error sint assumenda quas ullam iusto rem dolore voluptatibus hic facere ea excepturi? Repellendus, dignissimos. </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = "none"
+            }else {
+                itens.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
