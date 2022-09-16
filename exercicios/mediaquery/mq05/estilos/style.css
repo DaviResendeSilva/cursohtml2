@@ -40,14 +40,13 @@ menu > ul > li > a{
     background-color: rgb(66, 63, 63);
     color: white;
     text-align: center;
- border-top: 2px solid rgb(190, 182, 182);
+ border-top: 1px solid rgb(97, 93, 93);
 }
 menu > ul > li > a:hover{
     background-color: grey;
 }
 main{
-    width: 90vw;
-
+    width: 80vw;
     background-color: white;
     margin: auto;
     padding: 10px;
